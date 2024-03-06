@@ -21,7 +21,7 @@ Welcome to the Glasses Shop project! This is a simple PHP web application for ma
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/glasses-shop.git
+   git clone https://github.com/mostafaroshdy1/glasses-shop.git
    ```
 
 2. Navigate to the project directory:
