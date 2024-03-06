@@ -1,24 +1,15 @@
 <?php return array(
     'root' => array(
-        'name' => 'ahmedgalal/php',
+        'name' => 'mostafaroshdy/php',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '4609009596c5f12f93b004c1b9aa8542497d398e',
+        'reference' => '6584d05f48e0366349907ae2821401394539c85b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'ahmedgalal/php' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '4609009596c5f12f93b004c1b9aa8542497d398e',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'doctrine/inflector' => array(
             'pretty_version' => '1.4.4',
             'version' => '1.4.4.0',
@@ -70,6 +61,15 @@
             'reference' => '429be50660ed8a196e0798e5939760f168ec8ce9',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../kylekatarnls/update-helper',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mostafaroshdy/php' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '6584d05f48e0366349907ae2821401394539c85b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

@@ -135,6 +135,7 @@ $conn->disconnect();
                 </select>
                 <button type="submit" class="button">Search</button>
             </form>
+            <a class="button" style="float: right;" href=<?php echo "addItems.php" ?>>Add</a>
         </div>
         <table>
             <tr>

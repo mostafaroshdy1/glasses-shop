@@ -92,7 +92,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET["id"])) {
                 </p>
             </div>
             <div>
-                <img src="/phpDatabase/images/<?php echo $items[0]->Photo ?>" alt="Glasses Photo">
+                <img src="/websites/glasses-shop/phpDatabase/images/<?php echo $items[0]->Photo ?>" alt="Glasses Photo">
             </div>
         <?php } ?>
     </div>

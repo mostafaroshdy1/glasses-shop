@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 
+
 require_once("DbHandler.php");
 
 class MainDatabase implements DbHandler
@@ -69,22 +70,5 @@ class MainDatabase implements DbHandler
     public function get_count_items()
     {
         return Items::count();
-    }
-    public function add_item($id)
-    {
-        Items::create([
-            "id" => $id,
-            "PRODUCT_code" => NULL,
-            "product_name" => NULL,
-            "Photo" => NULL,
-            "list_price" => 20,
-            "reorder_level" => NULL,
-            "Units_In_Stock" => NULL,
-            "category" => NULL,
-            "CouNtry" => NULL,
-            "Rating" => NULL,
-            "discontinued" => NULL,
-            "date" => NULL
-        ]);
     }
 }

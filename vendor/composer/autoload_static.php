@@ -10,7 +10,7 @@ class ComposerStaticInit75b758aa908d49ef6698cfad954ee84b
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
-        'a55fbdcfe1c844a5d17202de4cfbf19d' => __DIR__ . '/../..' . '/config.php',
+        'b7948a0931326808552a04993f6d2911' => __DIR__ . '/../..' . '/config.php',
     );
 
     public static $prefixLengthsPsr4 = array (
